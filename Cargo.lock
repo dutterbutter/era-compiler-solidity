@@ -607,7 +607,7 @@ checksum = "5443807d6dff69373d433ab9ef5378ad8df50ca6298caf15de6e52e24aaf54d5"
 [[package]]
 name = "era-compiler-common"
 version = "1.5.0"
-source = "git+https://github.com/matter-labs/era-compiler-common?branch=main#10ea52ee6a27ae3392c25647f5f70fb60e3ce2a6"
+source = "git+https://github.com/dutterbutter/era-compiler-common?branch=db/bump-serde-json-dep#dc846b07923c8a06e7a7e6016b0ff93742832789"
 dependencies = [
  "anyhow",
  "base58",
@@ -623,7 +623,7 @@ dependencies = [
 [[package]]
 name = "era-compiler-downloader"
 version = "1.5.0"
-source = "git+https://github.com/matter-labs/era-compiler-common?branch=main#10ea52ee6a27ae3392c25647f5f70fb60e3ce2a6"
+source = "git+https://github.com/dutterbutter/era-compiler-common?branch=db/bump-serde-json-dep#dc846b07923c8a06e7a7e6016b0ff93742832789"
 dependencies = [
  "anyhow",
  "colored",
@@ -636,7 +636,7 @@ dependencies = [
 [[package]]
 name = "era-compiler-llvm-context"
 version = "1.5.0"
-source = "git+https://github.com/matter-labs/era-compiler-llvm-context?branch=main#564e41b4d9e0b6a3a0d2f875c6dd891477cef70c"
+source = "git+https://github.com/dutterbutter/era-compiler-llvm-context?branch=main#bfb95aae82fd3729f0450cfb8fdbe7c491daff3f"
 dependencies = [
  "anyhow",
  "era-compiler-common",
@@ -2204,9 +2204,9 @@ dependencies = [
 
 [[package]]
 name = "serde_json"
-version = "1.0.128"
+version = "1.0.133"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6ff5456707a1de34e7e37f2a6fd3d3f808c318259cbd01ab6377795054b483d8"
+checksum = "c7fceb2473b9166b2294ef05efcb65a3db80803f0b03ef86a5fc88a2b85ee377"
 dependencies = [
  "itoa",
  "memchr",
